@@ -1,0 +1,16 @@
+public class media {
+    public static void main(String[] args) {
+        int n1 = 4;
+        int n2 = 10;
+
+        if (n1 > n2) {
+            System.out.println(n1 + " é maior que " + n2);
+        }
+        else if (n1 < n2) {
+            System.out.println(n1 + " é menor que " + n2);
+        }
+        else {
+            System.out.println(n1 + " é igual a " + n2);
+        }
+    }
+}
