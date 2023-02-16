@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class ir {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite o valor do salário: ");
+        double salario = sc.nextDouble();
+        double desconto = 0;
+
+        if (salario <= 900) {
+            desconto = 0;
+        } else if (salario <= 1500) {
+            desconto = salario * 0.05;
+        } else if (salario <= 2500) {
+            desconto = salario * 0.1;
+        } else {
+            desconto = salario * 0.2;
+        }
+        double salarioliquido = salario - desconto;
+
+        System.out.printf ("Seu salário será de:" + salarioliquido)
+    }
+}
