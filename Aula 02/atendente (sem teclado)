@@ -1,0 +1,24 @@
+public class atendente {
+    public static void main(String[] args) {
+
+        int x = 1;
+
+        System.out.print("Bem vindo a nossa central de atendimento:\n");
+        System.out.print("1 - Comprar produto\n");
+        System.out.print("2 - Solicitar preço do produto\n");
+        System.out.print("3 - Falar com atendente\n ");
+        System.out.print("Selecione a opção que deseja:\n");
+
+        switch (x){
+            case 1:
+                System.out.print("Comprar produto");
+                break;
+            case 2:
+                System.out.print("Solicitar preço do produto");
+                break;
+            case 3:
+                System.out.print("Falar com atendente");
+                break;
+        }
+    }
+}
