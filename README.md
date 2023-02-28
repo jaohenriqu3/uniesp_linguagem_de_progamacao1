@@ -1,1 +1,1 @@
-# uniesp_linguagem_de_programa-o
+Projetos e exercicios de estudo da disciplina "Linguagem de programação 1" (Aplicada em Java), disciplina sendo cursada atualmente no segundo periodo da graduação de Sistemas Para Internet na instituição UNIESP - Centro Universitário 
